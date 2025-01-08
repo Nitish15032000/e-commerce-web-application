@@ -1,12 +1,16 @@
-
+import React from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import './App.css'
+
 
 function App() {
   
 
   return (
     <>
-        <h1>hello</h1>
+       <Navbar></Navbar>
+       <Footer />
     </>
   )
 }
